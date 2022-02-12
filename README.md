@@ -41,7 +41,7 @@ This makes sense as Ridge Regression is a technique for analyzing multiple regre
 
 ### Models Findings
 |Model|Mean Squared Error|
-|---|---|---|---|
+|---|---|
 |**Linear Regression**|No|Original|728884276.23|
 |**Ridge Regression**|No|Original|688259031.27|
 |**Lasso Regression**|No|Original|693984536.72|
@@ -49,57 +49,56 @@ This makes sense as Ridge Regression is a technique for analyzing multiple regre
 
 |Feature|Coefficient|
 |---|---|
-|**MS SubClass**|4461.87|
-|**MS Zoning**|4261.17|
-|**Lot Area**|5681.13|
-|**House Style**|1041.61|
-|**Overall Qual**|10812.66|
-|**Mas Vnr Type**|-3592.6|
-|**Mas Vnr Area**|7130.45|
-|**Exter Qual**|10356.70|
-|**Foundation**|1812.14|
-|**Bsmt Qual**|3344.66|
-|**Bsmt Cond**| -4326.41
-|**Mas Vnr Type**|-3592.6|
-|**Bsmt Exposure**| 4788.13
-|**BsmtFin Type 1**| -619.02
-|**BsmtFin SF 1**| 10053.50
-|**Total Bsmt SF**| 5812.22
-|**Heating QC**| 2802.45
-|**1st Flr SF**| 3552.75
-|**Gr Liv Area**| 19304.56
-|**Bsmt Full Bath**| 2056.48
-|**Kitchen Qual**| 10543.35
-|**Fireplace Qu**| 1477.75
-|**Garage Type**| -358.78
-|**Garage Finish**| 1048.57
-|**Garage Area**| 5782.66
-|**Wood Deck SF**| 1692.58
-|**Open Porch SF**| 1377.62
-|**Neighborhood_BrkSide**| 10499.47
-|**Neighborhood_CollgCr**| -3601.32
-|**Neighborhood_Crawfor**| 17510.97
-|**Neighborhood_Edwards**| -2156.76
-|**Neighborhood_Gilbert**| -27.14
-|**Neighborhood_MeadowV**| -9787.41
-|**Neighborhood_NWAmes**| -1930.80
-|**Neighborhood_NoRidge**| 20554.42
-|**Neighborhood_NridgHt**| 29190.88
-|**Neighborhood_Sawyer**| 3706.38
-|**Neighborhood_SawyerW**| -5591.50
-|**Neighborhood_Somerst**| 8742.77
-|**Neighborhood_StoneBr**| 41662.88
-|**Neighborhood_Timber**| 1535.87
-|**Exterior 1st_BrkFace**| 15857.38
-|**Exterior 1st_CemntBd**| 16453.18
-|**Exterior 1st_MetalSd**| 3539.08
-|**Exterior 1st_VinylSd**| 5861.59
-|**Exterior 1st_Wd Sdng**| -9306.65
-|**Exterior 2nd_AsbShng**| -2972.72
-|**Exterior 2nd_Plywood**| 26.96
-|**Exterior 2nd_Stucco**| -1190.60
-|**Exterior 2nd_Wd Sdng**| 10739.24
-|Neighborhood_Veenker|43854.60
+|**MS SubClass**| 2762.334115018486
+|**MS Zoning**| 3444.101134308963
+|**Lot Area**| 7049.022926803096
+|**House Style**| 2258.877261166752
+|**Overall Qual**| 10189.745212580223
+|**Mas Vnr Type**| -2872.359398886125
+|**Mas Vnr Area**| 6517.216967297893
+|**Exter Qual**| 9445.41974852496
+|**Foundation**| 2056.5696717784595
+|**Bsmt Qual**| 3641.893387541233
+|**Bsmt Cond**| -4370.125422607394
+|**Bsmt Exposure**| 4764.001038748247
+|**BsmtFin Type 1**| -198.35462274964084
+|**BsmtFin SF 1**| 8505.167066962458
+|**Total Bsmt SF**| 6733.717456395505
+|**Heating QC**| 2350.798460365768
+|**1st Flr SF**| 2432.170589340036
+|**Gr Liv Area**| 19562.711834955742
+|**Bsmt Full Bath**| 3036.339355477903
+|**Kitchen Qual**| 11170.488236014004
+|**Fireplace Qu**| 1503.015422101831
+|**Garage Type**| -764.4464538275497
+|**Garage Finish**| 1241.1812351671979
+|**Garage Area**| 5587.376255501178
+|**Wood Deck SF**| 1737.833282800886
+|**Open Porch SF**| 1572.6942696925835
+|**Neighborhood_BrkSide**| 11417.550730271476
+|**Neighborhood_CollgCr**| -4341.114056193408
+|**Neighborhood_Crawfor**| 18799.545710284467
+|**Neighborhood_Edwards**| -1884.1952654389606
+|**Neighborhood_Gilbert**| -3016.3225623015023
+|**Neighborhood_MeadowV**| -15657.21565416412
+|**Neighborhood_NWAmes**| -3445.474813470146
+|**Neighborhood_NoRidge**| 20181.452181746296
+|**Neighborhood_NridgHt**| 27920.043800807733
+|**Neighborhood_Sawyer**| 3609.748134014415
+|**Neighborhood_SawyerW**| -7134.123810850086
+|**Neighborhood_Somerst**| 7118.328333539481
+|**Neighborhood_StoneBr**| 39188.12787274329
+|**Neighborhood_Timber**| 5353.374746174013
+|**Exterior 1st_BrkFace**| 16026.755824373366
+|**Exterior 1st_CemntBd**| 20308.9053170126
+|**Exterior 1st_MetalSd**| 2586.4691869386006
+|**Exterior 1st_VinylSd**| 6216.936273453408
+|**Exterior 1st_Wd Sdng**| -8709.567873435095
+|**Exterior 2nd_AsbShng**| -13357.450957017441
+|**Exterior 2nd_Plywood**| -530.9545989684993
+|**Exterior 2nd_Stucco**| -5709.417014205799
+|**Exterior 2nd_Wd Sdng**| 8824.665260812748
+
 
 ## Conclusion
 
@@ -118,6 +117,9 @@ Nevertheless,  what our model aims to achieve is to provide a reference to home 
 Homeowners should always look to improve or maintain the quality of the different aspects of their houese, such as kitchen, basement, exterior etc. Putting ourselves in the buyers' shoes, we are much less willing to pay a premium price for a house that requires renovation or repair since these require cost. 
 Moreover, homeowners can use our model to evaluate whether the upgrading cost is worth financially or not. For example, the coefficient for Kitchen Qual is 10543.35. Should the upgrading cost be less than $10,000 , we would say that it is worth it.
 
+
+#### Exterior of the house matters
+Furthermore, the exterior of the house is another important factor too. For example, should the exterior covering be Asbestos Shingles, this will severly bring down the price. This makes sense as prolonged asbestos exposure could lead to an increase in likelihood of contracting cancer. Thus, a homeowner could consider changing the exterior of the house, but only if the cost is lower than the coefficient.
 
 
 ## Data Dictionary
